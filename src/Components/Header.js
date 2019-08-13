@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from "./HeaderComponents/NavBar";
+import NavBar from "./NavBarComponents/NavBar";
 import HeaderCarousel from './HeaderComponents/HeaderCarousel'
 
 function Header(){

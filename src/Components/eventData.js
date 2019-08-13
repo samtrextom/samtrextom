@@ -82,6 +82,45 @@ const eventData = [
             "Bar Mitzvah",
             "Quinceañera"
         ]
+    },
+    {
+        id:6,
+        homePagePic:"EventTilePics/HolidayTile.png",
+        eventPagePic:"",
+        eventTitle:"Holiday Parties",
+        eventDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eleifend velit sapien, a finibus massa scelerisque nec. Donec accumsan nisi augue, at.",
+        eventOptions:[
+            "Christmas Parties",
+            "Thanksgiving Parties",
+            "Bar Mitzvah",
+            "Quinceañera"
+        ]
+    },
+    {
+        id:6,
+        homePagePic:"EventTilePics/HolidayTile.png",
+        eventPagePic:"",
+        eventTitle:"Holiday Parties",
+        eventDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eleifend velit sapien, a finibus massa scelerisque nec. Donec accumsan nisi augue, at.",
+        eventOptions:[
+            "Christmas Parties",
+            "Thanksgiving Parties",
+            "Bar Mitzvah",
+            "Quinceañera"
+        ]
+    },
+    {
+        id:6,
+        homePagePic:"EventTilePics/HolidayTile.png",
+        eventPagePic:"",
+        eventTitle:"Holiday Parties",
+        eventDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eleifend velit sapien, a finibus massa scelerisque nec. Donec accumsan nisi augue, at.",
+        eventOptions:[
+            "Christmas Parties",
+            "Thanksgiving Parties",
+            "Bar Mitzvah",
+            "Quinceañera"
+        ]
     }
 ]
 

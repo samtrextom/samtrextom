@@ -26,6 +26,17 @@ class HeaderCarousel extends React.Component{
 
     goToPrevSlide = () =>{
 
+        if(this.state.currentIndex === 0) {
+            return this.setState({
+                currentIndex: this.state.images.length - 1,
+                translateValue: this.state.images.length - 1
+            })
+        }
+
+
+        this.setState(prevState => ({
+            currentIndex: prevState.currentIndex - 1
+        }));
     }
 
     goToNextSlide = () =>{
@@ -43,11 +54,6 @@ class HeaderCarousel extends React.Component{
         }));
 
     }
-
-    slideWidth = () => {
-        return document.querySelector('.slide').clientWidth
-    }
-
 
     render(){
 

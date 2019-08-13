@@ -37,6 +37,18 @@ class EventTileRows extends React.Component{
                     <div className="col-4">
                         <EventTile event = {events[5].props.event}/>
                     </div>
+
+                    <div className="w-100"></div>
+
+                    <div className="col-4">
+                        <EventTile event = {events[6].props.event}/>
+                    </div>
+                    <div className="col-4">
+                        <EventTile event = {events[7].props.event}/>
+                    </div>
+                    <div className="col-4">
+                        <EventTile event = {events[8].props.event}/>
+                    </div>
                 </div>
             </div>
         )

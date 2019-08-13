@@ -1,6 +1,6 @@
 import React from 'react';
-import navBarData from "./NavBarComponents/navBarData";
-import NavBarElement from "./NavBarComponents/NavBarElement";
+import navBarData from "./navBarData";
+import NavBarElement from "./NavBarElement";
 
 function NavBar() {
 

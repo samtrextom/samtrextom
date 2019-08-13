@@ -6,7 +6,7 @@ import RightFooter from './FooterComponents/RightFooter'
 function Footer() {
     return (
         <footer>
-            <div className="container-fluid">
+            <div className="container-fluid footerMain">
                 <div className="row">
                     <LeftFooter/>
                     <MiddleFooter/>

@@ -3,19 +3,50 @@
   background-image: linear-gradient( #ffffff , #a3fff4);
 }
 
-.content{
+.pageIntro{
+  margin-top: 2em;
+}
 
+.footerPhoneNumber{
+  margin-top: 1em;
+  margin-bottom: 0em;
+  float:left;
+}
+
+.footerContactLink{
+  float: left;
+}
+
+.footerMain{
+  padding-top: 2em;
+}
+
+.pageIntro h3{
+  font-family: Lora;
+}
+
+.pageIntro p{
+  font-family: Alegreya ;
 }
 
 .footBot{
-  font-size:.8em
+  font-size:.8em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 footer{
   margin-top: 5em;
   display:block;
-  background-color: #1d2b42;
-  color: #a3fff4;
+  color:#c5fffa;
+  background-color: #343a40;
+}
+
+.socialMediaIcons div{
+  width: 100px;
+  height: 100px;
+  display: table-cell;
+  text-align: center;
 }
 
 /*/////////////////////////////////////*/
@@ -44,21 +75,25 @@ header{
 
 /*/////////NAV STYLING/////////////////*/
 
-nav
-{
-  width:100%;
-  background-color: #1d2b42;
+.nav{
+  display: table;
+  width: 100%;
+  list-style: none;
 }
 
-.nav-item
+.nav a
 {
-  margin-left: 1px;
-  margin-right: 1px;
-  width: 23.25em;
+  width: 20%;
+  display: table-cell;
+  text-align: center;
 }
 
 .nav-link{
-  color: #a3fff4;
+  color: #c5fffa;
+}
+
+.nav-item{
+  color:#c5fffa;
 }
 
 /*///////////////////////////////////////*/
@@ -82,11 +117,15 @@ nav
   margin: 2em 2em 2em 2em;
 }
 
+.tile-title{
+  font-family: lora;
+}
+
 .event-tile .mask{
   width: 350px;
   height: 535px;
   transform: translate(-400px, -400px) rotate(45deg);
-  background-color: rgba(115,146,184, 0.7);
+  background-color: rgba(20.4,22.7,25.1, 0.8);
 }
 
 .event-tile .content{
@@ -110,10 +149,10 @@ nav
 }
 .event-tile h2 {
   text-transform: uppercase;
-  color: #fff;
+  color: #c5fffa;
   text-align: center;
   position: relative;
-  font-size: 20px;
+  font-size: 1em;
   padding: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   background: transparent;
@@ -126,7 +165,7 @@ nav
   font-family: Georgia, serif;
   font-style: italic;
   position: relative;
-  color: #fff;
+  color: #c5fffa;
   padding: 10px 20px 20px;
   text-align: center;
   transform: translate(-420px, 180px);
@@ -138,7 +177,7 @@ nav
   text-decoration: none;
   padding: 7px 14px;
   background: #000;
-  color: #fff;
+  color: #c5fffa;
   text-transform: uppercase;
   box-shadow: 0 0 1px #000;
   transform: translate(-200px, 200px);

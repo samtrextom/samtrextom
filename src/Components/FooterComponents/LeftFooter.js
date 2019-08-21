@@ -4,28 +4,28 @@ import {Link} from "react-router-dom";
 function LeftFooter() {
 
     const fbStyles = {
-        backgroundImage: `url(FooterIcon/facebookIconLightBlue120.png)`,
+        backgroundImage: `url(FooterIcon/facebookIconLightBlue80.png)`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: '50% 60%'
     }
 
     const igStyles = {
-        backgroundImage: `url(FooterIcon/igIconLightBlue120.png)`,
+        backgroundImage: `url(FooterIcon/igIconLightBlue80.png)`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: '50% 60%'
     }
 
     const twStyles = {
-        backgroundImage: `url(FooterIcon/twitterIconLightBlue120.png)`,
+        backgroundImage: `url(FooterIcon/twitterIconLightBlue80.png)`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: '50% 60%'
     }
 
     const pnStyles = {
-        backgroundImage: `url(FooterIcon/pintrestIconLightBlue120.png)`,
+        backgroundImage: `url(FooterIcon/pintrestIconLightBlue80.png)`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: '50% 60%'

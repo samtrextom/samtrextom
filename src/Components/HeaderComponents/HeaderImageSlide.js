@@ -8,8 +8,6 @@ const HeaderImageSlide = (props) =>{
         backgroundPosition: '50% 60%'
     }
 
-    console.log(props.image)
-
     return <div className="slide" style={styles}></div>
 }
 

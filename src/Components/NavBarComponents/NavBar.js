@@ -8,9 +8,9 @@ function NavBar() {
 
     return (
         <nav className="navbar navbar-dark bg-dark">
-            <ul className="nav nav-pills">
+            <div className="nav nav-pills">
                 {navButtons}
-            </ul>
+            </div>
         </nav>
     );
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 class EventTile extends React.Component{
 
@@ -14,7 +15,9 @@ class EventTile extends React.Component{
                 <div className="content">
                     <h2>{this.props.event.eventTitle}</h2>
                     <p>{this.props.event.eventDescription}</p>
-                    <a href="#" className="info">Read More</a>
+                    <Link to={this.props.event.menuLink}>
+                        <a href="#" className="info">See Menu</a>
+                    </Link>
                 </div>
             </div>
         )

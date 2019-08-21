@@ -1,6 +1,7 @@
 import React from "react"
 import eventData from './eventData'
 import EventTile from './EventTile'
+import {BrowserRouter as Router, Switch, Route}from 'react-router-dom'
 
 
 const events = eventData.map(event=> <EventTile key = {event.id} event ={event}/>)
